@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.row-limit-size {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+header figure {
+    height: 80 px;
+}
+
+.main-menu>ul>li {
+    position: relative;
+}
+
+body>header>nav>ul {
+    display: flex;
+}
+
+.main-menu>ul>li>a {
+    display: block;
+    display: flex;
+    height: 80px;
+    line-height: 80 px;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    font-size: 1rem;
+}
+
+.main-menu>ul>li>a.contact {
+    color: red;
+}
+
+.banniere {
+    padding: 50px 0;
+    background-image: url(../img/bg-header.webp);
+
+    height: 500px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: #E3C6E6;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #FFF;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 95px;
+}
+
+h3 {
+    color: #FFF;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-banniere {
+    text-align: center;
+    padding-bottom: 60px;
+    line-height: 1.25;
+}
+
+.catégorie h4{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 40px;
+    color: black;
+}
+
+.catégorie p{
+    text-align: center;
+    font-size: 15px;
+    color: #666;
+    line-height: 1.1;
+    margin-top: 15px;
+}
+
+.cadres {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+height:50px;
+  }
+  
+  .cadre {
+    border: 1px solid #fff;
+    padding: 20px;
+    width: calc(33.33% - 20px);
+    
+  }
+  
+  .image-haut {
+    width: 100%;
+    display: block;
+  }
+  
+  .contenu-picto-texte {
+   
+    display: flex;
+    align-items: center;
+  }
+  
+  .picto {
+    min-width: 80px;
+    height: 80px;
+    margin: 21px 15px 0;
+    box-sizing: border-box;
+  
+  }
+
+  .contenu-texte{
+    flex-grow: 1;
+    text-align: center;
+  }
+  
+  h5 {
+    margin-bottom: 8px;
+    font-size: 1.5em;
+    text-align: right ;
+  }
+  
+  p {
+    margin-bottom:0;
+    margin-top: 5px;
+    text-align: center;
+  }
