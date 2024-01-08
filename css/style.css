@@ -41,15 +41,26 @@ body>header>nav>ul {
     transition: all .5s ease;
     font-size: 1rem;
 }
-
-.main-menu>ul>li>a.contact {
+.main-menu>ul>li>a.catalogue{
     color: red;
+}
+.main-menu>ul>li>a.contact {
+        width: 70px;
+        background-color:#d01242;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 2px solid #ca2447;
+        color:#FFF;
+        margin-bottom: 30px;
+        display: block;
+        margin: 0 auto;
+        padding: 0 8px 0;
+        line-height: 50px;
 }
 
 .banniere {
     padding: 50px 0;
     background-image: url(../img/bg-header.webp);
-
     height: 500px;
 }
 
@@ -84,7 +95,7 @@ h3 {
     line-height: 1.25;
 }
 
-.catégorie h4{
+.catégorie h4 {
     text-align: center;
     text-transform: uppercase;
     font-size: 30px;
@@ -92,60 +103,77 @@ h3 {
     color: black;
 }
 
-.catégorie p{
+.catégorie p {
     text-align: center;
     font-size: 15px;
     color: #666;
     line-height: 1.1;
     margin-top: 15px;
+    margin-bottom: 80px;
 }
 
+
 .cadres {
+    justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
-height:50px;
-  }
-  
-  .cadre {
+    height: 60%;
+    width:100%;
+padding-right: 15PX;
+padding-left: 15PX;
+    flex-wrap: wrap;
+margin-right: auto;
+margin-left: auto;
+
+}
+
+.cadre {
     border: 1px solid #fff;
-    padding: 20px;
-    width: calc(33.33% - 20px);
-    
-  }
-  
-  .image-haut {
+    padding: 10px;
+    width: calc(30% - 20px);
+    align-items: center;
+}
+
+.image-haut {
     width: 100%;
     display: block;
-  }
-  
-  .contenu-picto-texte {
-   
+}
+
+.contenu-picto-texte {
+    background-color: #ededed;
     display: flex;
     align-items: center;
-  }
-  
-  .picto {
-    min-width: 80px;
-    height: 80px;
+
+}
+
+.picto {
+    min-width: 60px;
+    height: 60px;
     margin: 21px 15px 0;
     box-sizing: border-box;
-  
-  }
 
-  .contenu-texte{
-    flex-grow: 1;
-    text-align: center;
-  }
-  
-  h5 {
-    margin-bottom: 8px;
+}
+
+.contenu-texte h5 {
+    padding: 20px 0;
+}
+
+h5 {
+    margin-bottom: 5px;
     font-size: 1.5em;
-    text-align: right ;
-  }
-  
-  p {
-    margin-bottom:0;
-    margin-top: 5px;
-    text-align: center;
-  }
+    text-align: left;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contenu {
+    margin-bottom: 15px;
+    margin-top: 50px;
+    text-align: justify;
+    display: flex;
+    color: #555;
+    font-size: 20px;
+    justify-content: center;
+}
